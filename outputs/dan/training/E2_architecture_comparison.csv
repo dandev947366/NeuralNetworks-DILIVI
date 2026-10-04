@@ -1,0 +1,2 @@
+experiment,model,val_f1_macro,val_accuracy,test_accuracy,test_precision_macro,test_recall_macro,test_f1_macro,test_balanced_accuracy
+E2,resnet50,0.9384893760321923,0.940149625935162,0.8765432098765432,0.8953708085200415,0.8896664093363865,0.886545129171126,0.8896664093363865
