@@ -1,0 +1,29 @@
+                                   precision    recall  f1-score   support
+
+                    Acer palmatum     0.9474    0.9474    0.9474        19
+                   Cedrus deodara     1.0000    1.0000    1.0000        13
+                  Celtis sinensis     1.0000    0.5217    0.6857        23
+ Cinnamomum camphora (Linn) Presl     1.0000    0.8095    0.8947        21
+            Elaeocarpus decipiens     0.8696    1.0000    0.9302        20
+                 Flowering cherry     1.0000    0.6923    0.8182        13
+                    Ginkgo biloba     1.0000    0.5385    0.7000        26
+          Koelreuteria paniculata     0.7037    0.9048    0.7917        21
+             Lagerstroemia indica     0.8571    0.8571    0.8571         7
+            Liquidambar formosana     0.8500    0.9444    0.8947        18
+            Liriodendron chinense     0.5938    0.9500    0.7308        20
+           Magnolia grandiflora L     0.7727    1.0000    0.8718        17
+          Magnolia liliflora Desr     0.7391    0.8500    0.7907        20
+               Michelia chapensis     1.0000    1.0000    1.0000        17
+               Osmanthus fragrans     0.8333    1.0000    0.9091        15
+            Photinia serratifolia     0.8889    0.5714    0.6957        14
+                         Platanus     0.8889    0.7273    0.8000        22
+Prunus cerasifera f. atropurpurea     1.0000    1.0000    1.0000        11
+                 Salix babylonica     1.0000    1.0000    1.0000        13
+               Sapindus saponaria     0.8667    0.5909    0.7027        22
+          Styphnolobium japonicum     1.0000    0.6667    0.8000        18
+                Triadica sebifera     0.4737    1.0000    0.6429        18
+                  Zelkova serrata     1.0000    0.9412    0.9697        17
+
+                         accuracy                         0.8321       405
+                        macro avg     0.8819    0.8484    0.8449       405
+                     weighted avg     0.8774    0.8321    0.8318       405
