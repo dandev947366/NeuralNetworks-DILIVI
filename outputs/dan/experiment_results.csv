@@ -1,0 +1,2 @@
+experiment,model,augmentation,loss,optimizer,val_f1_macro,val_accuracy,val_precision_macro,val_recall_macro,test_accuracy,test_precision_macro,test_recall_macro,test_f1_macro,test_balanced_accuracy
+E1,resnet18,baseline_mild,CrossEntropyLoss,AdamW,0.9336035213354523,0.9326683291770573,0.9366614806334735,0.9347349231648131,0.8320987654320988,0.8819499954393248,0.8484001445649979,0.8449148681022519,0.8484001445649979
