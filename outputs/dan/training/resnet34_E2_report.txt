@@ -1,0 +1,37 @@
+======================================================================
+E2 REPORT - ResNet-34
+======================================================================
+
+Dataset
+ Train : 3850
+ Val   : 401
+ Test  : 405
+
+Best validation
+ Stage       : finetune
+ Epoch       : 15
+ Macro-F1    : 0.924
+ Accuracy    : 0.9202
+ Loss        : 0.2942
+
+Final test results
+ Loss              : 0.4686
+ Accuracy          : 0.8741
+ Precision macro   : 0.8966
+ Recall macro      : 0.887
+ Macro-F1          : 0.8873
+ Balanced accuracy : 0.887
+
+Saved artifacts
+ Checkpoint       : /Users/dandev947366/Desktop/HAMK_CLASSES/AI-App-Class/NeuralNetworks-DILIVI/outputs/dan/training/best_resnet34_E2.pth
+ Config           : /Users/dandev947366/Desktop/HAMK_CLASSES/AI-App-Class/NeuralNetworks-DILIVI/outputs/dan/training/resnet34_E2_config.json
+ History          : /Users/dandev947366/Desktop/HAMK_CLASSES/AI-App-Class/NeuralNetworks-DILIVI/outputs/dan/training/resnet34_E2_history.csv
+ Learning curves  : /Users/dandev947366/Desktop/HAMK_CLASSES/AI-App-Class/NeuralNetworks-DILIVI/outputs/dan/training/resnet34_E2_learning_curves.png
+ Top-k JSON       : /Users/dandev947366/Desktop/HAMK_CLASSES/AI-App-Class/NeuralNetworks-DILIVI/outputs/dan/training/resnet34_E2_topk.json
+ Comparison CSV   : /Users/dandev947366/Desktop/HAMK_CLASSES/AI-App-Class/NeuralNetworks-DILIVI/outputs/dan/training/E2_architecture_comparison_resnet18_vs_resnet34.csv
+ Top-k plot       : /Users/dandev947366/Desktop/HAMK_CLASSES/AI-App-Class/NeuralNetworks-DILIVI/outputs/dan/training/E2_topk_comparison_resnet18_vs_resnet34.png
+ Separation JSON  : /Users/dandev947366/Desktop/HAMK_CLASSES/AI-App-Class/NeuralNetworks-DILIVI/outputs/dan/training/E2_topk_separation_resnet34.json
+ Confusion PNG    : /Users/dandev947366/Desktop/HAMK_CLASSES/AI-App-Class/NeuralNetworks-DILIVI/outputs/dan/training/resnet34_E2_confusion_matrix.png
+ Confusion CSV    : /Users/dandev947366/Desktop/HAMK_CLASSES/AI-App-Class/NeuralNetworks-DILIVI/outputs/dan/training/resnet34_E2_confusion_matrix.csv
+ Per-class CSV    : /Users/dandev947366/Desktop/HAMK_CLASSES/AI-App-Class/NeuralNetworks-DILIVI/outputs/dan/training/resnet34_E2_per_class.csv
+ Registry         : /Users/dandev947366/Desktop/HAMK_CLASSES/AI-App-Class/NeuralNetworks-DILIVI/outputs/dan/experiment_results.csv
