@@ -7,9 +7,11 @@ The notebooks are run in this order:
         ↓
 2. Dan_E1_training_baseline_local.ipynb
         ↓
-3. Dan_E2_training_local.ipynb
+3. Dan_E2_training_local.ipynb               (ResNet-50)
         ↓
-4. Dan_E3_training_improvement_local.ipynb
+4. Dan_E2_training_local_resnet34.ipynb      (ResNet-34)
+        ↓
+5. Dan_E3_training_improvement_local.ipynb
 ```
 
 ### 2. Preprocessing notebook
@@ -60,7 +62,9 @@ outputs/dan/training_baseline/
 outputs/dan/experiment_results.csv
 ```
 
-### 4. E2 architecture comparison notebook
+### 4. E2 architecture comparison notebooks
+
+#### 4a. ResNet-50 variant
 
 ```text
 Dan_E2_training_local.ipynb
@@ -70,7 +74,7 @@ Purpose:
 
 - train ResNet-50,
 - compare ResNet-50 against the E1 ResNet-18 baseline,
-- compare Top-k behavior between E1 and E2,
+- compare Top-k behavior between E1 and E2 (ResNet-50),
 - save architecture comparison artifacts.
 
 Primary outputs:
@@ -80,13 +84,33 @@ outputs/dan/training/
 outputs/dan/experiment_results.csv
 ```
 
-Important dependency:
+#### 4b. ResNet-34 variant
+
+```text
+Dan_E2_training_local_resnet34.ipynb
+```
+
+Purpose:
+
+- train ResNet-34,
+- compare ResNet-34 against the E1 ResNet-18 baseline,
+- compare Top-k behavior between E1 and E2 (ResNet-34),
+- save architecture comparison artifacts.
+
+Primary outputs:
+
+```text
+outputs/dan/training/
+outputs/dan/experiment_results.csv
+```
+
+Important dependency (shared by both E2 variants):
 
 ```text
 outputs/dan/training_baseline/resnet18_E1_topk.json
 ```
 
-E2 needs the E1 Top-k file to generate the cross-model Top-k comparison plot and separation analysis.
+Each E2 notebook needs the E1 Top-k file to generate the cross-model Top-k comparison plot and separation analysis.
 
 ### 5. E3 improvement notebook
 
